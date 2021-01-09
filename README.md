@@ -13,4 +13,4 @@ python 解方程组小程序v.x
 ```
 # 感谢
 感谢使用，欢迎star和fork
-github：https://github.com/thunder-sword/
+github：https://github.com/thunder-sword/python-Equations
