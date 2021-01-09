@@ -11,3 +11,6 @@ python2和python3均可，只要安装了sympy就行。
 ```python
 python 解方程组小程序v.x
 ```
+# 感谢
+感谢使用，欢迎star和fork
+github：https://github.com/thunder-sword/
