@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 from sympy import solve,Symbol 
-#解方程组小程序v0.4-thunder-sword
+#解方程组小程序v1.0-thunder-sword
 #处理了输出内容，使其整齐化
-#因为solve函数返回值有可能为列表，有可能为字典，所以要用isinstance函数判断
+#如4*x可以直接写为4x，能识别
+#可以用^或者**进行指数运算操作
 
 print('请输入方程组中所有的变量名：')
 bianliang=[]
@@ -35,7 +36,6 @@ while true:
         break
     fangcheng.append(eval(string2))
 
-#print(fangcheng)
 ans_solve=solve(fangcheng, bianliang)
 if isinstance(ans_solve,list):
     print(bianliang,'=',ans_solve,end='\n\n')
